@@ -1,0 +1,61 @@
+.wrapper{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family:"Epilogue";
+}
+[class*="__container"]{
+    max-width: 1232px;
+    margin: 0 auto;
+
+}
+.main{
+    flex: 1 1 auto;
+}
+.subtitle{
+font-family:"Epilogue";
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+}
+.casual-text{
+    font-size: 17px;
+    font-family:"Epilogue";
+}
+.main__title{
+    font-family:"Epilogue";
+    font-size: 68px;
+    font-weight: 600;
+    line-height: 69.7px;
+}
+a{
+    color: black;
+    text-decoration: none;
+font-family: "Epilogue";
+font-size: 17px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+}
+.section__title{
+    font-family: "Epilogue";
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+    
+    }
+.grid-title{
+    font-family: "Epilogue";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+}
+.bold{
+    font-weight: 600;
+}
+.left{
+    text-align: left;
+    padding-top: 50px;
+}
